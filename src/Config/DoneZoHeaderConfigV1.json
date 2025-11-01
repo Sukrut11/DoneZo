@@ -18,7 +18,7 @@
     ],
     "userProfileInfo": {
         "userImage": {
-            "userImageUrl": "src/assets/user-avatar.png",
+            "userImageUrl": "public/user-avatar.png",
             "userImageAltText": "user_image",
             "imageHeight": 50,
             "imageWidth": 50,

@@ -1,5 +1,5 @@
 {
-    "logoUrl": "src/assets/donezo_logo.png",
+    "logoUrl": "public/donezo_logo.png",
     "height": 180,
     "width": 180,
     "altText": "donezo_logo",
@@ -73,7 +73,7 @@
     ],
     "downloadImageContents": [
         {
-            "downloadImageUrl": "src/assets/download_donezo_image.png",
+            "downloadImageUrl": "public/download_donezo_image.png",
             "downloadImageAltText": "download_donezo",
             "downloadImageHeight": 250,
             "downloadImageWidth": 250
