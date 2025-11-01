@@ -1,0 +1,625 @@
+{
+    "DoneZoHomePageConfig": [
+        {
+            "container": {
+                "id": 100,
+                "order": 1,
+                "viewIdentifier": "container",
+                "marginHorizontal": "mx-1",
+                "marginVertical": "my-1",
+                "paddingHorizontal": "px-1",
+                "paddingVertical": "py-1",
+                "borderSize": "1px",
+                "borderColor": "#888888",
+                "bg": "#000000",
+                "flex": "flex flex-row",
+                "wrap": "flex-wrap",
+                "children": [
+                    {
+                        "dashboardInfoSection": {
+                            "title": "Dashboard",
+                            "titleColor": "text-black",
+                            "subtitle": "Plan, prioritize and accomplish your tasks with ease",
+                            "subtitleColor": "text-black",
+                            "viewIdentifier": "dashboardInfoSection",
+                            "id": 101,
+                            "order": 2,
+                            "marginLeft": "ml-1",
+                            "marginRight": "",
+                            "marginTop": "",
+                            "marginBottom": "",
+                            "paddingLeft": "",
+                            "paddingRight": "",
+                            "paddingTop": "",
+                            "paddingBottom": "",
+                            "flex": 1,
+                            "flexDirection": "flex-row",
+                            "justifyContent": "justify-between",
+                            "alignItems": "items-center",
+                            "gap": "gap-4",
+                            "actionButtons": [
+                                {
+                                    "buttonIcon": "faPlus",
+                                    "buttonIconColor": "text-black",
+                                    "buttonTxt": "Add Project",
+                                    "buttonTxtColor": "text-white",
+                                    "buttonBgColor": "bg-gradient-to-br from-green-800 to-green-600",
+                                    "borderSize": "none",
+                                    "borderColor": "none"
+                                },
+                                {
+                                    "buttonIcon": "",
+                                    "buttonIconColor": "text-black",
+                                    "buttonTxt": "Import Data",
+                                    "buttonTxtColor": "text-green-800",
+                                    "buttonBgColor": "bg-white",
+                                    "borderSize": "1px",
+                                    "borderColor": "#166534"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "container": {
+                "id": 101,
+                "order": 2,
+                "viewIdentifier": "container",
+                "marginHorizontal": "mx-1",
+                "marginVertical": "my-1",
+                "paddingHorizontal": "px-1",
+                "paddingVertical": "py-1",
+                "borderSize": "1px",
+                "borderColor": "#888888",
+                "bg": "#000000",
+                "flex": "",
+                "wrap": "flex-wrap",
+                "children": [
+                    {
+                        "projectInfo": {
+                            "viewIdentifier": "ProjectInfoView",
+                            "order": 3,
+                            "id": 102,
+                            "projectInfoCards": [
+                                {
+                                    "cardTitle": "Total Projects",
+                                    "cardValue": 10,
+                                    "cardTextColor": "text-white",
+                                    "actionIcon": "faArrowUpRightFromSquare",
+                                    "bgTheme": "bg-gradient-to-br from-green-800 to-green-600",
+                                    "visibility": 1,
+                                    "cardStatusIndicators": {
+                                        "statusIndicatorValue": 10,
+                                        "statusIndicatorIcon": "faCaretUp",
+                                        "statusIndicatorText": "Increased from last month",
+                                        "statusIndicatorBgColor": "none",
+                                        "statusIndicatorTextColor": "text-lime-300",
+                                        "visibility": 1
+                                    },
+                                    "viewIdentifier": "ProjectInfoView"
+                                },
+                                {
+                                    "cardTitle": "Total Projects",
+                                    "cardValue": 10,
+                                    "cardTextColor": "text-black",
+                                    "actionIcon": "faArrowUpRightFromSquare",
+                                    "bgTheme": "bg-white",
+                                    "visibility": 1,
+                                    "cardStatusIndicators": {
+                                        "statusIndicatorValue": 10,
+                                        "statusIndicatorIcon": "faCaretUp",
+                                        "statusIndicatorText": "Increased from last month",
+                                        "statusIndicatorBgColor": "none",
+                                        "statusIndicatorTextColor": "black",
+                                        "visibility": 1
+                                    },
+                                    "viewIdentifier": "ProjectInfoView"
+                                },
+                                {
+                                    "cardTitle": "Total Projects",
+                                    "cardValue": 10,
+                                    "cardTextColor": "text-black",
+                                    "actionIcon": "faArrowUpRightFromSquare",
+                                    "bgTheme": "bg-white",
+                                    "visibility": 1,
+                                    "cardStatusIndicators": {
+                                        "statusIndicatorValue": 10,
+                                        "statusIndicatorIcon": "faCaretUp",
+                                        "statusIndicatorText": "Increased from last month",
+                                        "statusIndicatorBgColor": "none",
+                                        "statusIndicatorTextColor": "black",
+                                        "visibility": 1
+                                    },
+                                    "viewIdentifier": "ProjectInfoView"
+                                },
+                                {
+                                    "cardTitle": "Total Projects",
+                                    "cardValue": 10,
+                                    "cardTextColor": "text-black",
+                                    "actionIcon": "faArrowUpRightFromSquare",
+                                    "bgTheme": "bg-white",
+                                    "visibility": 1,
+                                    "cardStatusIndicators": {
+                                        "statusIndicatorValue": 10,
+                                        "statusIndicatorIcon": "faCaretUp",
+                                        "statusIndicatorText": "Increased from last month",
+                                        "statusIndicatorBgColor": "none",
+                                        "statusIndicatorTextColor": "black",
+                                        "visibility": 1
+                                    },
+                                    "viewIdentifier": "ProjectInfoView"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "container": {
+                "id": 103,
+                "order": 3,
+                "viewIdentifier": "container",
+                "marginHorizontal": "mx-1",
+                "marginVertical": "my-1",
+                "paddingHorizontal": "px-1",
+                "paddingVertical": "py-1",
+                "borderSize": "1px",
+                "borderColor": "#888888",
+                "bg": "",
+                "flex": "flex flex-row items-center justify-center",
+                "wrap": "flex-wrap",
+                "children": [
+                    {
+                        "reminderCard": {
+                            "title": "Reminders",
+                            "titleColor": "text-black",
+                            "description": "Meeting with Arc Company",
+                            "descriptionColor": "text-green-900",
+                            "label": "Time : 02.00 pm - 04.00 pm",
+                            "labelColor": "text-gray-400",
+                            "actionButton": [
+                                {
+                                    "buttonTxt": "Start Meeting",
+                                    "buttonIcon": "faVideo",
+                                    "buttonBgColor": "bg-gradient-to-br from-green-800 to-green-600",
+                                    "buttonTxtColor": "text-white",
+                                    "buttonIconColor": "text-white",
+                                    "borderSize": "none",
+                                    "borderColor": "none"
+                                },
+                                {
+                                    "buttonTxt": "Join Meeting",
+                                    "buttonIcon": "faVideo",
+                                    "buttonBgColor": "bg-white",
+                                    "buttonTxtColor": "text-black",
+                                    "buttonIconColor": "text-black",
+                                    "borderSize": "1px",
+                                    "borderColor": "#166534"
+                                }
+                            ],
+                            "bgTheme": "bg-white",
+                            "visibility": 1,
+                            "viewIdentifier": "ReminderCard",
+                            "order": 4,
+                            "id": 103
+                        }
+                    },
+                    {
+                        "statusInfoCard": {
+                            "title": "Team Collaboration",
+                            "titleColor": "text-black",
+                            "order": 5,
+                            "id": 104,
+                            "headerButton": {
+                                "buttonTxt": "Add Member",
+                                "buttonIcon": "faPlus",
+                                "buttonTxtColor": "text-green-800",
+                                "buttonIconColor": "text-green-800",
+                                "buttonBgColor": "bg-white",
+                                "buttonBorderColor": "#166534",
+                                "buttonBorderSize": "1px"
+                            },
+                            "statusInfoItems": [
+                                {
+                                    "title": "Alexandra Deff",
+                                    "TitleColor": "text-black",
+                                    "labelTxt": "Working on",
+                                    "labelTxtColor": "text-gray-400",
+                                    "labelValue": "Github Project Repository",
+                                    "labelValueColor": "text-black",
+                                    "status": "Completed",
+                                    "statusColor": "text-green-700",
+                                    "statusBgColor": "bg-green-100",
+                                    "avatarImage": "",
+                                    "avatarBgColor": "bg-gradient-to-br from-pink-400 to-pink-600",
+                                    "avatarBorderRadius": "50%",
+                                    "visibility": 1
+                                },
+                                {
+                                    "title": "Sarah Johnson",
+                                    "TitleColor": "text-black",
+                                    "labelTxt": "Working on",
+                                    "labelTxtColor": "text-gray-400",
+                                    "labelValue": "Mobile App Design",
+                                    "labelValueColor": "text-black",
+                                    "status": "In Progress",
+                                    "statusColor": "text-yellow-700",
+                                    "statusBgColor": "bg-yellow-100",
+                                    "avatarImage": "",
+                                    "avatarBgColor": "bg-gradient-to-br from-purple-400 to-purple-600",
+                                    "avatarBorderRadius": "50%",
+                                    "visibility": 1
+                                },
+                                {
+                                    "title": "Mike Chen",
+                                    "TitleColor": "text-black",
+                                    "labelTxt": "Working on",
+                                    "labelTxtColor": "text-gray-400",
+                                    "labelValue": "API Integration",
+                                    "labelValueColor": "text-black",
+                                    "status": "Pending",
+                                    "statusColor": "text-red-700",
+                                    "statusBgColor": "bg-red-100",
+                                    "avatarImage": "",
+                                    "avatarBgColor": "bg-gradient-to-br from-cyan-400 to-cyan-600",
+                                    "avatarBorderRadius": "50%",
+                                    "visibility": 1
+                                },
+                                {
+                                    "title": "Emma Wilson",
+                                    "TitleColor": "text-black",
+                                    "labelTxt": "Working on",
+                                    "labelTxtColor": "text-gray-400",
+                                    "labelValue": "User Testing",
+                                    "labelValueColor": "text-black",
+                                    "status": "In Progress",
+                                    "statusColor": "text-yellow-700",
+                                    "statusBgColor": "bg-yellow-100",
+                                    "avatarImage": "",
+                                    "avatarBgColor": "bg-gradient-to-br from-emerald-400 to-emerald-600",
+                                    "avatarBorderRadius": "50%",
+                                    "visibility": 1
+                                }
+                            ],
+                            "bgTheme": "bg-white",
+                            "visibility": 1,
+                            "viewIdentifier": "StatusInfoView"
+                        }
+                    },
+                    {
+                        "statusInfoCard": {
+                            "id": 105,
+                            "order": 5,
+                            "viewIdentifier": "StatusInfoView",
+                            "title": "Project",
+                            "titleColor": "text-black",
+                            "headerButton": {
+                                "buttonTxt": "New",
+                                "buttonIcon": "faPlus",
+                                "buttonTxtColor": "text-green-800",
+                                "buttonIconColor": "text-green-800",
+                                "buttonBgColor": "bg-white",
+                                "buttonBorderColor": "#166534",
+                                "buttonBorderSize": "1px"
+                            },
+                            "statusInfoItems": [
+                                {
+                                    "title": "Develop API Endpoints",
+                                    "TitleColor": "text-black",
+                                    "labelTxt": "Due date:",
+                                    "labelTxtColor": "text-gray-400",
+                                    "labelValue": "Nov 26, 2024",
+                                    "labelValueColor": "text-gray-400",
+                                    "status": "In Progress",
+                                    "statusColor": "text-yellow-700",
+                                    "statusBgColor": "bg-yellow-100",
+                                    "avatarImage": "",
+                                    "avatarBgColor": "bg-blue-500",
+                                    "avatarBorderRadius": "50%",
+                                    "visibility": 1
+                                },
+                                {
+                                    "title": "Onboarding Flow",
+                                    "TitleColor": "text-black",
+                                    "labelTxt": "Due date:",
+                                    "labelTxtColor": "text-gray-400",
+                                    "labelValue": "Nov 28, 2024",
+                                    "labelValueColor": "text-gray-400",
+                                    "status": "Pending",
+                                    "statusColor": "text-red-700",
+                                    "statusBgColor": "bg-red-100",
+                                    "avatarImage": "",
+                                    "avatarBgColor": "bg-teal-500",
+                                    "avatarBorderRadius": "50%",
+                                    "visibility": 1
+                                },
+                                {
+                                    "title": "Build Dashboard",
+                                    "TitleColor": "text-black",
+                                    "labelTxt": "Due date:",
+                                    "labelTxtColor": "text-gray-400",
+                                    "labelValue": "Nov 30, 2024",
+                                    "labelValueColor": "text-gray-400",
+                                    "status": "Completed",
+                                    "statusColor": "text-green-700",
+                                    "statusBgColor": "bg-green-100",
+                                    "avatarImage": "",
+                                    "avatarBgColor": "bg-green-400",
+                                    "avatarBorderRadius": "50%",
+                                    "visibility": 1
+                                },
+                                {
+                                    "title": "Optimize Page Load",
+                                    "TitleColor": "text-black",
+                                    "labelTxt": "Due date:",
+                                    "labelTxtColor": "text-gray-400",
+                                    "labelValue": "Dec 5, 2024",
+                                    "labelValueColor": "text-gray-400",
+                                    "status": "In Progress",
+                                    "statusColor": "text-yellow-700",
+                                    "statusBgColor": "bg-yellow-100",
+                                    "avatarImage": "",
+                                    "avatarBgColor": "bg-yellow-500",
+                                    "avatarBorderRadius": "50%",
+                                    "visibility": 1
+                                },
+                                {
+                                    "title": "Cross-Browser Testing",
+                                    "TitleColor": "text-black",
+                                    "labelTxt": "Due date:",
+                                    "labelTxtColor": "text-gray-400",
+                                    "labelValue": "Dec 6, 2024",
+                                    "labelValueColor": "text-gray-400",
+                                    "status": "Pending",
+                                    "statusColor": "text-red-700",
+                                    "statusBgColor": "bg-red-100",
+                                    "avatarImage": "",
+                                    "avatarBgColor": "bg-purple-500",
+                                    "avatarBorderRadius": "50%",
+                                    "visibility": 1
+                                }
+                            ],
+                            "bgTheme": "bg-white",
+                            "visibility": 1
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "container": {
+                "id": 104,
+                "order": 4,
+                "viewIdentifier": "container",
+                "marginHorizontal": "mx-1",
+                "marginVertical": "my-1",
+                "paddingHorizontal": "px-1",
+                "paddingVertical": "py-1",
+                "borderSize": "1px",
+                "borderColor": "#888888",
+                "bg": "",
+                "flex": "flex flex-row items-center justify-center",
+                "wrap": "flex-wrap",
+                "children": [
+                    {
+                        "reminderCard": {
+                            "title": "Reminders",
+                            "titleColor": "text-black",
+                            "description": "Meeting with Arc Company",
+                            "descriptionColor": "text-green-900",
+                            "label": "Time : 02.00 pm - 04.00 pm",
+                            "labelColor": "text-gray-400",
+                            "actionButton": [
+                                {
+                                    "buttonTxt": "Start Meeting",
+                                    "buttonIcon": "faVideo",
+                                    "buttonBgColor": "bg-gradient-to-br from-green-800 to-green-600",
+                                    "buttonTxtColor": "text-white",
+                                    "buttonIconColor": "text-white",
+                                    "borderSize": "none",
+                                    "borderColor": "none"
+                                },
+                                {
+                                    "buttonTxt": "Join Meeting",
+                                    "buttonIcon": "faVideo",
+                                    "buttonBgColor": "bg-white",
+                                    "buttonTxtColor": "text-black",
+                                    "buttonIconColor": "text-black",
+                                    "borderSize": "1px",
+                                    "borderColor": "#166534"
+                                }
+                            ],
+                            "bgTheme": "bg-white",
+                            "visibility": 1,
+                            "viewIdentifier": "ReminderCard",
+                            "order": 4,
+                            "id": 103
+                        }
+                    },
+                    {
+                        "statusInfoCard": {
+                            "title": "Team Collaboration",
+                            "titleColor": "text-black",
+                            "order": 5,
+                            "id": 104,
+                            "headerButton": {
+                                "buttonTxt": "Add Member",
+                                "buttonIcon": "faPlus",
+                                "buttonTxtColor": "text-green-800",
+                                "buttonIconColor": "text-green-800",
+                                "buttonBgColor": "bg-white",
+                                "buttonBorderColor": "#166534",
+                                "buttonBorderSize": "1px"
+                            },
+                            "statusInfoItems": [
+                                {
+                                    "title": "Alexandra Deff",
+                                    "TitleColor": "text-black",
+                                    "labelTxt": "Working on",
+                                    "labelTxtColor": "text-gray-400",
+                                    "labelValue": "Github Project Repository",
+                                    "labelValueColor": "text-black",
+                                    "status": "Completed",
+                                    "statusColor": "text-green-700",
+                                    "statusBgColor": "bg-green-100",
+                                    "avatarImage": "",
+                                    "avatarBgColor": "bg-gradient-to-br from-pink-400 to-pink-600",
+                                    "avatarBorderRadius": "50%",
+                                    "visibility": 1
+                                },
+                                {
+                                    "title": "Sarah Johnson",
+                                    "TitleColor": "text-black",
+                                    "labelTxt": "Working on",
+                                    "labelTxtColor": "text-gray-400",
+                                    "labelValue": "Mobile App Design",
+                                    "labelValueColor": "text-black",
+                                    "status": "In Progress",
+                                    "statusColor": "text-yellow-700",
+                                    "statusBgColor": "bg-yellow-100",
+                                    "avatarImage": "",
+                                    "avatarBgColor": "bg-gradient-to-br from-purple-400 to-purple-600",
+                                    "avatarBorderRadius": "50%",
+                                    "visibility": 1
+                                },
+                                {
+                                    "title": "Mike Chen",
+                                    "TitleColor": "text-black",
+                                    "labelTxt": "Working on",
+                                    "labelTxtColor": "text-gray-400",
+                                    "labelValue": "API Integration",
+                                    "labelValueColor": "text-black",
+                                    "status": "Pending",
+                                    "statusColor": "text-red-700",
+                                    "statusBgColor": "bg-red-100",
+                                    "avatarImage": "",
+                                    "avatarBgColor": "bg-gradient-to-br from-cyan-400 to-cyan-600",
+                                    "avatarBorderRadius": "50%",
+                                    "visibility": 1
+                                },
+                                {
+                                    "title": "Emma Wilson",
+                                    "TitleColor": "text-black",
+                                    "labelTxt": "Working on",
+                                    "labelTxtColor": "text-gray-400",
+                                    "labelValue": "User Testing",
+                                    "labelValueColor": "text-black",
+                                    "status": "In Progress",
+                                    "statusColor": "text-yellow-700",
+                                    "statusBgColor": "bg-yellow-100",
+                                    "avatarImage": "",
+                                    "avatarBgColor": "bg-gradient-to-br from-emerald-400 to-emerald-600",
+                                    "avatarBorderRadius": "50%",
+                                    "visibility": 1
+                                }
+                            ],
+                            "bgTheme": "bg-white",
+                            "visibility": 1,
+                            "viewIdentifier": "StatusInfoView"
+                        }
+                    },
+                    {
+                        "statusInfoCard": {
+                            "id": 105,
+                            "order": 5,
+                            "viewIdentifier": "StatusInfoView",
+                            "title": "Project",
+                            "titleColor": "text-black",
+                            "headerButton": {
+                                "buttonTxt": "New",
+                                "buttonIcon": "faPlus",
+                                "buttonTxtColor": "text-green-800",
+                                "buttonIconColor": "text-green-800",
+                                "buttonBgColor": "bg-white",
+                                "buttonBorderColor": "#166534",
+                                "buttonBorderSize": "1px"
+                            },
+                            "statusInfoItems": [
+                                {
+                                    "title": "Develop API Endpoints",
+                                    "TitleColor": "text-black",
+                                    "labelTxt": "Due date:",
+                                    "labelTxtColor": "text-gray-400",
+                                    "labelValue": "Nov 26, 2024",
+                                    "labelValueColor": "text-gray-400",
+                                    "status": "In Progress",
+                                    "statusColor": "text-yellow-700",
+                                    "statusBgColor": "bg-yellow-100",
+                                    "avatarImage": "",
+                                    "avatarBgColor": "bg-blue-500",
+                                    "avatarBorderRadius": "50%",
+                                    "visibility": 1
+                                },
+                                {
+                                    "title": "Onboarding Flow",
+                                    "TitleColor": "text-black",
+                                    "labelTxt": "Due date:",
+                                    "labelTxtColor": "text-gray-400",
+                                    "labelValue": "Nov 28, 2024",
+                                    "labelValueColor": "text-gray-400",
+                                    "status": "Pending",
+                                    "statusColor": "text-red-700",
+                                    "statusBgColor": "bg-red-100",
+                                    "avatarImage": "",
+                                    "avatarBgColor": "bg-teal-500",
+                                    "avatarBorderRadius": "50%",
+                                    "visibility": 1
+                                },
+                                {
+                                    "title": "Build Dashboard",
+                                    "TitleColor": "text-black",
+                                    "labelTxt": "Due date:",
+                                    "labelTxtColor": "text-gray-400",
+                                    "labelValue": "Nov 30, 2024",
+                                    "labelValueColor": "text-gray-400",
+                                    "status": "Completed",
+                                    "statusColor": "text-green-700",
+                                    "statusBgColor": "bg-green-100",
+                                    "avatarImage": "",
+                                    "avatarBgColor": "bg-green-400",
+                                    "avatarBorderRadius": "50%",
+                                    "visibility": 1
+                                },
+                                {
+                                    "title": "Optimize Page Load",
+                                    "TitleColor": "text-black",
+                                    "labelTxt": "Due date:",
+                                    "labelTxtColor": "text-gray-400",
+                                    "labelValue": "Dec 5, 2024",
+                                    "labelValueColor": "text-gray-400",
+                                    "status": "In Progress",
+                                    "statusColor": "text-yellow-700",
+                                    "statusBgColor": "bg-yellow-100",
+                                    "avatarImage": "",
+                                    "avatarBgColor": "bg-yellow-500",
+                                    "avatarBorderRadius": "50%",
+                                    "visibility": 1
+                                },
+                                {
+                                    "title": "Cross-Browser Testing",
+                                    "TitleColor": "text-black",
+                                    "labelTxt": "Due date:",
+                                    "labelTxtColor": "text-gray-400",
+                                    "labelValue": "Dec 6, 2024",
+                                    "labelValueColor": "text-gray-400",
+                                    "status": "Pending",
+                                    "statusColor": "text-red-700",
+                                    "statusBgColor": "bg-red-100",
+                                    "avatarImage": "",
+                                    "avatarBgColor": "bg-purple-500",
+                                    "avatarBorderRadius": "50%",
+                                    "visibility": 1
+                                }
+                            ],
+                            "bgTheme": "bg-white",
+                            "visibility": 1
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

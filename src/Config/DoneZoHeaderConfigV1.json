@@ -1,0 +1,36 @@
+{
+    "searchBarPlaceholderTxt": "Search tasks",
+    "socialMediaIcons": [
+        {
+            "iconName": "faEnvelope",
+            "iconColor": "black",
+            "iconBgColor": "white",
+            "iconSize": "18px",
+            "visibility": 1
+        },
+        {
+            "iconName": "faBell",
+            "iconColor": "black",
+            "iconBgColor": "white",
+            "iconSize": "18px",
+            "visibility": 1
+        }
+    ],
+    "userProfileInfo": {
+        "userImage": {
+            "userImageUrl": "src/assets/user-avatar.png",
+            "userImageAltText": "user_image",
+            "imageHeight": 50,
+            "imageWidth": 50,
+            "imageRadius": "32px"
+        },
+        "userName": {
+            "nameTxt": "Totok Michael",
+            "isVisible": 1
+        },
+        "userEmail": {
+            "emailTxt": "tmichael20@gmail.com",
+            "isVisible": 1
+        }
+    }
+}

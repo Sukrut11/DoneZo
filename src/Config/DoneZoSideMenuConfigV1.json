@@ -1,0 +1,82 @@
+{
+    "logoUrl": "src/assets/donezo_logo.png",
+    "height": 180,
+    "width": 180,
+    "altText": "donezo_logo",
+    "menuSections": [
+        {
+            "sectionTitle": "MENU",
+            "sectionOptions": [
+                {
+                    "icon": "fa-solid faTableColumns",
+                    "optionTitle": "Dashboard",
+                    "optionSubtTitle": "",
+                    "optionTag": "",
+                    "visibility": 1
+                },
+                {
+                    "icon": "fa-solid faTasks",
+                    "optionTitle": "Tasks",
+                    "optionSubtTitle": "",
+                    "optionTag": "12+",
+                    "visibility": 1
+                },
+                {
+                    "icon": "fa-solid faCalendarDays",
+                    "optionTitle": "Calendar",
+                    "optionSubtTitle": "",
+                    "optionTag": "",
+                    "visibility": 1
+                },
+                {
+                    "icon": "fa-solid faChartLine",
+                    "optionTitle": "Analytics",
+                    "optionSubtTitle": "",
+                    "optionTag": "",
+                    "visibility": 1
+                },
+                {
+                    "icon": "fa-solid faUsers",
+                    "optionTitle": "Team",
+                    "optionSubtTitle": "",
+                    "optionTag": "",
+                    "visibility": 1
+                }
+            ]
+        },
+        {
+            "sectionTitle": "GENERAL",
+            "sectionOptions": [
+                {
+                    "icon": "fa-solid faCog",
+                    "optionTitle": "Settings",
+                    "optionSubtTitle": "",
+                    "optionTag": "",
+                    "visibility": 1
+                },
+                {
+                    "icon": "fa-solid faQuestionCircle",
+                    "optionTitle": "Help",
+                    "optionSubtTitle": "",
+                    "optionTag": "",
+                    "visibility": 1
+                },
+                {
+                    "icon": "fa-solid faSignOutAlt",
+                    "optionTitle": "Logout",
+                    "optionSubtTitle": "",
+                    "optionTag": "",
+                    "visibility": 1
+                }
+            ]
+        }
+    ],
+    "downloadImageContents": [
+        {
+            "downloadImageUrl": "src/assets/download_donezo_image.png",
+            "downloadImageAltText": "download_donezo",
+            "downloadImageHeight": 250,
+            "downloadImageWidth": 250
+        }
+    ]
+}
