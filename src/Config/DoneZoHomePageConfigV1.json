@@ -52,7 +52,7 @@
                                     "buttonIconColor": "text-black",
                                     "buttonTxt": "Import Data",
                                     "buttonTxtColor": "text-green-800",
-                                    "buttonBgColor": "bg-white",
+                                    "buttonBgColor": "#fff",
                                     "borderSize": "1px",
                                     "borderColor": "#166534"
                                 }
@@ -193,7 +193,7 @@
                                 {
                                     "buttonTxt": "Join Meeting",
                                     "buttonIcon": "faVideo",
-                                    "buttonBgColor": "bg-white",
+                                    "buttonBgColor": "#fff",
                                     "buttonTxtColor": "text-black",
                                     "buttonIconColor": "text-black",
                                     "borderSize": "1px",
@@ -218,14 +218,14 @@
                                 "buttonIcon": "faPlus",
                                 "buttonTxtColor": "text-green-800",
                                 "buttonIconColor": "text-green-800",
-                                "buttonBgColor": "bg-white",
+                                "buttonBgColor": "#f8f8f8",
                                 "buttonBorderColor": "#166534",
                                 "buttonBorderSize": "1px"
                             },
                             "statusInfoItems": [
                                 {
                                     "title": "Alexandra Deff",
-                                    "TitleColor": "text-black",
+                                    "titleColor": "text-black",
                                     "labelTxt": "Working on",
                                     "labelTxtColor": "text-gray-400",
                                     "labelValue": "Github Project Repository",
@@ -240,7 +240,7 @@
                                 },
                                 {
                                     "title": "Sarah Johnson",
-                                    "TitleColor": "text-black",
+                                    "titleColor": "text-black",
                                     "labelTxt": "Working on",
                                     "labelTxtColor": "text-gray-400",
                                     "labelValue": "Mobile App Design",
@@ -255,7 +255,7 @@
                                 },
                                 {
                                     "title": "Mike Chen",
-                                    "TitleColor": "text-black",
+                                    "titleColor": "text-black",
                                     "labelTxt": "Working on",
                                     "labelTxtColor": "text-gray-400",
                                     "labelValue": "API Integration",
@@ -270,7 +270,7 @@
                                 },
                                 {
                                     "title": "Emma Wilson",
-                                    "TitleColor": "text-black",
+                                    "titleColor": "text-black",
                                     "labelTxt": "Working on",
                                     "labelTxtColor": "text-gray-400",
                                     "labelValue": "User Testing",
@@ -301,14 +301,14 @@
                                 "buttonIcon": "faPlus",
                                 "buttonTxtColor": "text-green-800",
                                 "buttonIconColor": "text-green-800",
-                                "buttonBgColor": "bg-white",
+                                "buttonBgColor": "#f8f8f8",
                                 "buttonBorderColor": "#166534",
                                 "buttonBorderSize": "1px"
                             },
                             "statusInfoItems": [
                                 {
                                     "title": "Develop API Endpoints",
-                                    "TitleColor": "text-black",
+                                    "titleColor": "text-black",
                                     "labelTxt": "Due date:",
                                     "labelTxtColor": "text-gray-400",
                                     "labelValue": "Nov 26, 2024",
@@ -323,7 +323,7 @@
                                 },
                                 {
                                     "title": "Onboarding Flow",
-                                    "TitleColor": "text-black",
+                                    "titleColor": "text-black",
                                     "labelTxt": "Due date:",
                                     "labelTxtColor": "text-gray-400",
                                     "labelValue": "Nov 28, 2024",
@@ -338,7 +338,7 @@
                                 },
                                 {
                                     "title": "Build Dashboard",
-                                    "TitleColor": "text-black",
+                                    "titleColor": "text-black",
                                     "labelTxt": "Due date:",
                                     "labelTxtColor": "text-gray-400",
                                     "labelValue": "Nov 30, 2024",
@@ -353,7 +353,7 @@
                                 },
                                 {
                                     "title": "Optimize Page Load",
-                                    "TitleColor": "text-black",
+                                    "titleColor": "text-black",
                                     "labelTxt": "Due date:",
                                     "labelTxtColor": "text-gray-400",
                                     "labelValue": "Dec 5, 2024",
@@ -368,7 +368,7 @@
                                 },
                                 {
                                     "title": "Cross-Browser Testing",
-                                    "TitleColor": "text-black",
+                                    "titleColor": "text-black",
                                     "labelTxt": "Due date:",
                                     "labelTxtColor": "text-gray-400",
                                     "labelValue": "Dec 6, 2024",
@@ -425,7 +425,7 @@
                                 {
                                     "buttonTxt": "Join Meeting",
                                     "buttonIcon": "faVideo",
-                                    "buttonBgColor": "bg-white",
+                                    "buttonBgColor": "#fff",
                                     "buttonTxtColor": "text-black",
                                     "buttonIconColor": "text-black",
                                     "borderSize": "1px",
@@ -450,14 +450,14 @@
                                 "buttonIcon": "faPlus",
                                 "buttonTxtColor": "text-green-800",
                                 "buttonIconColor": "text-green-800",
-                                "buttonBgColor": "bg-white",
+                                "buttonBgColor": "#f8f8f8",
                                 "buttonBorderColor": "#166534",
                                 "buttonBorderSize": "1px"
                             },
                             "statusInfoItems": [
                                 {
                                     "title": "Alexandra Deff",
-                                    "TitleColor": "text-black",
+                                    "titleColor": "text-black",
                                     "labelTxt": "Working on",
                                     "labelTxtColor": "text-gray-400",
                                     "labelValue": "Github Project Repository",
@@ -472,7 +472,7 @@
                                 },
                                 {
                                     "title": "Sarah Johnson",
-                                    "TitleColor": "text-black",
+                                    "titleColor": "text-black",
                                     "labelTxt": "Working on",
                                     "labelTxtColor": "text-gray-400",
                                     "labelValue": "Mobile App Design",
@@ -487,7 +487,7 @@
                                 },
                                 {
                                     "title": "Mike Chen",
-                                    "TitleColor": "text-black",
+                                    "titleColor": "text-black",
                                     "labelTxt": "Working on",
                                     "labelTxtColor": "text-gray-400",
                                     "labelValue": "API Integration",
@@ -502,7 +502,7 @@
                                 },
                                 {
                                     "title": "Emma Wilson",
-                                    "TitleColor": "text-black",
+                                    "titleColor": "text-black",
                                     "labelTxt": "Working on",
                                     "labelTxtColor": "text-gray-400",
                                     "labelValue": "User Testing",
@@ -533,14 +533,14 @@
                                 "buttonIcon": "faPlus",
                                 "buttonTxtColor": "text-green-800",
                                 "buttonIconColor": "text-green-800",
-                                "buttonBgColor": "bg-white",
+                                "buttonBgColor": "#f8f8f8",
                                 "buttonBorderColor": "#166534",
                                 "buttonBorderSize": "1px"
                             },
                             "statusInfoItems": [
                                 {
                                     "title": "Develop API Endpoints",
-                                    "TitleColor": "text-black",
+                                    "titleColor": "text-black",
                                     "labelTxt": "Due date:",
                                     "labelTxtColor": "text-gray-400",
                                     "labelValue": "Nov 26, 2024",
@@ -555,7 +555,7 @@
                                 },
                                 {
                                     "title": "Onboarding Flow",
-                                    "TitleColor": "text-black",
+                                    "titleColor": "text-black",
                                     "labelTxt": "Due date:",
                                     "labelTxtColor": "text-gray-400",
                                     "labelValue": "Nov 28, 2024",
@@ -570,7 +570,7 @@
                                 },
                                 {
                                     "title": "Build Dashboard",
-                                    "TitleColor": "text-black",
+                                    "titleColor": "text-black",
                                     "labelTxt": "Due date:",
                                     "labelTxtColor": "text-gray-400",
                                     "labelValue": "Nov 30, 2024",
@@ -585,7 +585,7 @@
                                 },
                                 {
                                     "title": "Optimize Page Load",
-                                    "TitleColor": "text-black",
+                                    "titleColor": "text-black",
                                     "labelTxt": "Due date:",
                                     "labelTxtColor": "text-gray-400",
                                     "labelValue": "Dec 5, 2024",
@@ -600,7 +600,7 @@
                                 },
                                 {
                                     "title": "Cross-Browser Testing",
-                                    "TitleColor": "text-black",
+                                    "titleColor": "text-black",
                                     "labelTxt": "Due date:",
                                     "labelTxtColor": "text-gray-400",
                                     "labelValue": "Dec 6, 2024",

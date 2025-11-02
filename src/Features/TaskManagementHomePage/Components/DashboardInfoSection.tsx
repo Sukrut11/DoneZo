@@ -64,10 +64,11 @@ const DashboardInfoSection = (props: DashboardInfoSectionProps) => {
     return (
         <div className={`${containerClasses} w-full flex flex-col lg:flex-row lg:justify-between lg:items-center gap-4`}>
             <div className="info-text flex flex-col gap-1">
-                <p className="info-title font-bold font-sans text-2xl sm:text-3xl lg:text-[36px]">{props.title}</p>
+                <p className={`info-title font-bold font-sans text-2xl sm:text-3xl lg:text-[36px] ${props.titleColor}`}>{props.title}</p>
                 <p className="info-subtitle font-normal font-sans text-sm sm:text-base lg:text-[18px] text-[#888888]">{props.subtitle}</p>
             </div>
-            <div className="action-buttons gap-2 sm:gap-4 flex flex-col sm:flex-row w-full sm:w-auto lg:w-auto lg:flex-shrink-0">                {props.actionButtons.map((button, index) => (
+            <div className="action-buttons gap-2 sm:gap-4 flex flex-col sm:flex-row w-full sm:w-auto lg:w-auto lg:flex-shrink-0">                
+                {props.actionButtons.map((button, index) => (
                 <button
                     key={`action-button-${index}`}
                     className={`
@@ -78,7 +79,9 @@ const DashboardInfoSection = (props: DashboardInfoSectionProps) => {
                 appearance-none w-full sm:w-auto text-sm sm:text-base lg:text-[18px]
             `}
                     style={{
-                        ...{ border: getBorderStyle(button.borderSize, button.borderColor) }
+                        ...{ border: getBorderStyle(button.borderSize, button.borderColor),
+                            backgroundColor: button.buttonBgColor.startsWith("bg-") ? button.buttonBgColor : button.buttonBgColor 
+                         }
                     }}
                 ><FontAwesomeIcon icon={iconMap[button.buttonIcon as keyof typeof iconMap]} style={{ color: button.buttonIconColor, paddingRight: '8px' }} />
                     {button.buttonTxt}

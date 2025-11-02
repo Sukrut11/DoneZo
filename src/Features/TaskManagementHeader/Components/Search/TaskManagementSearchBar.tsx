@@ -19,8 +19,8 @@ const TaskManagementSearchBar = () => {
                 </div>
 
                 <div className="mac-command-icon absolute right-7 top-1/2 transform -translate-y-1/2 flex flex-row justify-center items-center gap-[1px] bg-gray-200 rounded-[7px] px-3">
-                    <span className="fontsize-[24px]">⌘</span>
-                    <p>F</p>
+                    <span className="fontsize-[24px] text-gray-700">⌘</span>
+                    <p className="text-gray-700">F</p>
                 </div>
             </div>
         </div>

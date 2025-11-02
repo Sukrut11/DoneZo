@@ -7,7 +7,7 @@ const TaskManagementUserProfile = () => {
             <div className="user-image">
                 <img className={`rounded-[${userProfileInfo.userImage.imageRadius}]`} src={userProfileInfo.userImage.userImageUrl} alt={userProfileInfo.userImage.userImageAltText} height={userProfileInfo.userImage.imageHeight} width={userProfileInfo.userImage.imageWidth}/>
             </div>
-            <div className="user-details flex flex-col justify-center">
+            <div className="user-details flex flex-col justify-center text-gray-900">
                 <div className="user-name font-semibold">
                     <p>{userProfileInfo.userName.nameTxt}</p>
                 </div>

@@ -3,7 +3,7 @@ import TaskManagementHomePage from "../../Features/TaskManagementHomePage/TaskMa
 
 const TaskManagementMainContentArea = () => {
     return (
-        <div className="task-management-main-content-area w-full lg:w-screen">
+        <div className="task-management-main-content-area bg-white w-full lg:w-screen">
             <TaskManagementHeader />
             <TaskManagementHomePage />
         </div>

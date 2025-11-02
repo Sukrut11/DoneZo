@@ -37,7 +37,7 @@ const SideBarMenuOptions = () => {
                             <div className="option-icon text-gray-600 flex justify-center items-center">
                                 <FontAwesomeIcon icon={iconMap[option.icon as keyof typeof iconMap]} style={{ fontSize: '15px' }}/>
                             </div>
-                            <div className="option-text flex flex-col text-[20px]">
+                            <div className="option-text flex flex-col text-[20px] text-gray-600">
                                 <div className="option-title">
                                     {option.optionTitle}
                                 </div>

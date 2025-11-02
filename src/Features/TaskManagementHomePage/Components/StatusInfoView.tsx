@@ -54,6 +54,7 @@ const StatusInfoView = (props: StatusInfoViewProps) => {
 
                     <button
                         className={`${props.headerButton.buttonBgColor} ${props.headerButton.buttonTxtColor} hidden md:flex items-center gap-2 font-medium text-xs sm:text-[14px] px-3 sm:px-4 py-2 !rounded-full w-auto justify-start`}
+                        style={{backgroundColor: props.headerButton.buttonBgColor.startsWith("bg-") ? props.headerButton.buttonBgColor : props.headerButton.buttonBgColor}}
                     >
                         {props.headerButton.buttonIcon && (
                             <FontAwesomeIcon
@@ -128,6 +129,7 @@ const StatusInfoView = (props: StatusInfoViewProps) => {
 
                 <button
                     className={`${props.headerButton.buttonBgColor} ${props.headerButton.buttonTxtColor} flex md:hidden items-center gap-2 font-medium text-xs sm:text-[14px] px-3 sm:px-4 py-2 !rounded-full w-full justify-center mt-4`}
+                    style={{backgroundColor: props.headerButton.buttonBgColor.startsWith("bg-") ? props.headerButton.buttonBgColor : props.headerButton.buttonBgColor}}
                 >
                     {props.headerButton.buttonIcon && (
                         <FontAwesomeIcon

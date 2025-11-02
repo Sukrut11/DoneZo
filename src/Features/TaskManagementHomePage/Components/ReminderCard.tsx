@@ -67,7 +67,9 @@ const ReminderCard = (props: ReminderCardProps) => {
                     hover:opacity-90 focus:outline-none
                 `}
                             style={{
-                                ...{ border: getBorderStyle(button.borderSize, button.borderColor), borderRadius: '36px' }
+                                ...{ border: getBorderStyle(button.borderSize, button.borderColor), borderRadius: '36px',
+                                    backgroundColor: button.buttonBgColor.startsWith("bg-") ? button.buttonBgColor : button.buttonBgColor
+                                 }
                             }}
                         >
                             <FontAwesomeIcon
